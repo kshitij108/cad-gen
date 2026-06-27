@@ -1,0 +1,11 @@
+{
+  "job_id": "2d999c7f-2798-400f-82b6-1b50638bbeb4",
+  "job_type": "image",
+  "status": "failed",
+  "progress": 80,
+  "cad_specification": "// Simple ring with rectangular/cushion-cut gemstone\n// Ring diameter approximately 20mm, gem 8x6mm\n\n$fn = 100;\n\n// Ring parameters\nring_outer_radius = 10;\nring_thickness = 2;\nband_width = 2.5;\n\n// Gemstone parameters\ngem_length = 8;\ngem_width = 6;\ngem_height = 4;\ngem_lift = 3; // height above ring\n\n// Main ring band\ndifference() {\n    // Outer torus\n    rotate_extrude()\n        translate([ring_outer_radius, 0, 0])\n            circle(r = ring_thickness);\n    \n    // Inner cutout for finger\n    r...",
+  "file_path": null,
+  "file_format": "STEP",
+  "created_at": "2026-06-26T19:48:39.517572",
+  "updated_at": "2026-06-26T19:48:58.554103"
+}

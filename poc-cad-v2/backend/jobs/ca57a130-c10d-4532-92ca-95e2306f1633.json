@@ -1,0 +1,11 @@
+{
+  "job_id": "ca57a130-c10d-4532-92ca-95e2306f1633",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\n\n# Ring dimensions (size 7 US)\nring_inner_diameter = 17.3  # mm\nring_outer_diameter = 19.3  # mm\nring_height = 2.0  # mm\nband_width = 2.5  # mm\n\n# Diamond settings\ndiamond_length = 8.0  # mm (oval length)\ndiamond_width = 6.0  # mm (oval width)\ndiamond_height = 5.0  # mm (total height)\nprong_diameter = 0.8  # mm\nprong_height = 4.0  # mm\n\n# Create the main ring band\nresult = (Workplane(\"XY\")\n    .cylinder(ring_height, ring_outer_diameter/2)\n    .faces(\">Z or <Z\")\n   ...",
+  "file_path": "cad_models/ca57a130-c10d-4532-92ca-95e2306f1633/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:04:15.109470",
+  "updated_at": "2026-06-26T20:04:40.662790"
+}

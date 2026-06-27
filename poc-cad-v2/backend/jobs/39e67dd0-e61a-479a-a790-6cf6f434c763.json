@@ -1,0 +1,11 @@
+{
+  "job_id": "39e67dd0-e61a-479a-a790-6cf6f434c763",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "// Simple sphere\n$fn = 64; // High quality rendering\n\n// Sphere parameters\nsphere_radius = 20; // Radius of sphere in mm\n\n// Create sphere centered at origin\nsphere(r = sphere_radius);...",
+  "file_path": "cad_models/39e67dd0-e61a-479a-a790-6cf6f434c763/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T19:52:00.006419",
+  "updated_at": "2026-06-26T19:52:03.504466"
+}

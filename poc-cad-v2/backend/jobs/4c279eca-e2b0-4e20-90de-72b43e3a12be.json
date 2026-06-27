@@ -1,0 +1,11 @@
+{
+  "job_id": "4c279eca-e2b0-4e20-90de-72b43e3a12be",
+  "job_type": "prompt",
+  "status": "failed",
+  "progress": 80,
+  "cad_specification": "from cadquery import Workplane\n\n# Create the ring band as a torus\n# Major radius: 8.5mm (distance from center to tube center)\n# Minor radius: 1.5mm (tube thickness radius)\nring_band = (Workplane(\"XY\")\n    .circle(8.5)  # Create circle at major radius\n    .workplane(offset=0, centerOption=\"CenterOfMass\")\n    .circle(1.5)  # Create profile circle with minor radius\n    .sweep(Workplane(\"XY\").circle(8.5), sweepAlongWires=True)  # Sweep to create torus\n)\n\n# Alternative torus creation using revolve\nri...",
+  "file_path": null,
+  "file_format": "STEP",
+  "created_at": "2026-06-26T20:22:29.184983",
+  "updated_at": "2026-06-26T20:22:40.683337"
+}

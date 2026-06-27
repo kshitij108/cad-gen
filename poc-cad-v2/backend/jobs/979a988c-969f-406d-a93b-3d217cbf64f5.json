@@ -1,0 +1,11 @@
+{
+  "job_id": "979a988c-969f-406d-a93b-3d217cbf64f5",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "{\n  \"title\": \"Oval Diamond Engagement Ring with Accent Stones\",\n  \"description\": \"An elegant engagement ring featuring an 18K gold band with an oval-cut diamond center stone (approximately 1.5 carats, 9x7mm) held in a four-prong setting. The band includes tapered shoulders with 8 round brilliant cut diamond accents (0.15mm each) in a pave setting. The ring band has a comfort-fit interior with a width of 2.5mm tapering to 2mm at the base.\",\n  \"dimensions\": {\n    \"width\": 20.5,\n    \"height\": 8.5,\n    \"depth\": 20.5\n  },\n  \"features\": [\n    \"Oval-cut center stone setting with four double-claw prongs\",\n    \"Pave-set diamond accents along shoulders\",\n    \"Comfort-fit band interior\",\n    \"Gallery underneath center stone for light passage\",\n    \"Tapered band design from 2.5mm to 2mm\",\n    \"Size 6.5 US standard (16.9mm inner diameter)\",\n    \"Rhodium plating option for white gold finish\"\n  ],\n  \"material\": \"18K Gold (Yellow/White/Rose options)\",\n  \"file_format\": \"STEP\",\n  \"complexity\": \"complex\"\n}",
+  "file_path": "cad_models/979a988c-969f-406d-a93b-3d217cbf64f5/model.stl",
+  "file_format": "STEP",
+  "created_at": "2026-06-26T19:01:27.498067",
+  "updated_at": "2026-06-26T19:01:39.829887"
+}

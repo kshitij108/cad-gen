@@ -1,0 +1,11 @@
+{
+  "job_id": "046a80e6-3260-4723-bdf3-f84b2ae06079",
+  "job_type": "prompt",
+  "status": "failed",
+  "progress": 50,
+  "cad_specification": null,
+  "file_path": null,
+  "file_format": "STEP",
+  "created_at": "2026-06-26T20:21:30.044995",
+  "updated_at": "2026-06-26T20:21:30.046153"
+}

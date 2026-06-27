@@ -1,0 +1,11 @@
+{
+  "job_id": "8be21679-ba84-4615-9c1e-291ea032fd63",
+  "job_type": "image",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "// Adjustable desk lamp with articulated arm\n// Overall height approximately 400mm when extended\n\n$fn = 64;\n\n// Base dimensions\nbase_diameter = 120;\nbase_height = 15;\nbase_top_diameter = 80;\n\n// Lower arm dimensions\nlower_arm_length = 150;\nlower_arm_diameter = 12;\n\n// Upper arm dimensions  \nupper_arm_length = 180;\nupper_arm_diameter = 10;\n\n// Lamp head dimensions\nhead_diameter = 100;\nhead_height = 80;\nshade_thickness = 3;\n\n// Joint dimensions\njoint_diameter = 20;\njoint_height = 15;\n\n// Base\ncolo...",
+  "file_path": "cad_models/8be21679-ba84-4615-9c1e-291ea032fd63/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T19:51:23.952761",
+  "updated_at": "2026-06-26T19:51:44.963510"
+}

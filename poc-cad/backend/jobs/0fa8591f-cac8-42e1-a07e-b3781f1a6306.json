@@ -1,0 +1,11 @@
+{
+  "job_id": "0fa8591f-cac8-42e1-a07e-b3781f1a6306",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\n\n# Create a rectangular box with dimensions 50x40x30mm\nresult = (Workplane(\"XY\")\n    .box(50, 40, 30)  # length=50mm, width=40mm, height=30mm\n)\n\nresult = result.val()...",
+  "file_path": "cad_models/0fa8591f-cac8-42e1-a07e-b3781f1a6306/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:05:25.980055",
+  "updated_at": "2026-06-26T20:05:29.426132"
+}

@@ -1,0 +1,11 @@
+{
+  "job_id": "c638fec0-f9c9-4975-a05c-881e9549b52a",
+  "job_type": "image",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\nimport cadquery as cq\n\n# Engagement ring with oval center stone and pav\u00e9 band\n# Ring band dimensions\nband_outer_radius = 10\nband_inner_radius = 8.5\nband_height = 2\nband_width = 1.5\n\n# Create ring band\nresult = (Workplane(\"XY\")\n    .circle(band_outer_radius)\n    .circle(band_inner_radius)\n    .extrude(band_height)\n)\n\n# Add prong setting for center stone\nprong_height = 4\nprong_radius = 0.3\nprong_positions = [(2, 0), (-2, 0), (0, 1.5), (0, -1.5)]\n\nfor x, y in prong_po...",
+  "file_path": "cad_models/c638fec0-f9c9-4975-a05c-881e9549b52a/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:29:12.903564",
+  "updated_at": "2026-06-26T20:29:30.626516"
+}

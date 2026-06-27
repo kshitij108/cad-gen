@@ -1,0 +1,11 @@
+{
+  "job_id": "1e1227a8-62c3-4df4-9e77-df915a6f79b7",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "// Cylinder with 15mm radius and 50mm height\n$fn = 64; // High quality rendering\n\n// Main cylinder parameters\ncylinder_radius = 15; // Radius in mm\ncylinder_height = 50; // Height in mm\n\n// Center the cylinder at origin\ntranslate([0, 0, -cylinder_height/2]) {\n    cylinder(h = cylinder_height, r = cylinder_radius, center = false);\n}...",
+  "file_path": "cad_models/1e1227a8-62c3-4df4-9e77-df915a6f79b7/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T19:30:40.025085",
+  "updated_at": "2026-06-26T19:30:49.547009"
+}

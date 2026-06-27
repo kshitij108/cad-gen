@@ -1,0 +1,11 @@
+{
+  "job_id": "49d0aaf2-cc25-4084-a31e-f189787cb1a2",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "{\n  \"title\": \"Spherical Bearing Ball 25mm\",\n  \"description\": \"A precision spherical ball for use in bearing assemblies, featuring a perfectly round geometry with a 25mm diameter. The ball is designed for smooth rotational movement and load distribution in mechanical bearing applications.\",\n  \"dimensions\": {\n    \"width\": 25.0,\n    \"height\": 25.0,\n    \"depth\": 25.0\n  },\n  \"features\": [\"Perfect spherical geometry\", \"Uniform diameter throughout\", \"Smooth surface finish for low friction\", \"Center point reference for assembly\"],\n  \"material\": \"Chrome Steel (AISI 52100)\",\n  \"file_format\": \"STEP\",\n  \"complexity\": \"simple\"\n}",
+  "file_path": "cad_models/49d0aaf2-cc25-4084-a31e-f189787cb1a2/model.stl",
+  "file_format": "STEP",
+  "created_at": "2026-06-26T18:54:03.381885",
+  "updated_at": "2026-06-26T18:54:09.778655"
+}

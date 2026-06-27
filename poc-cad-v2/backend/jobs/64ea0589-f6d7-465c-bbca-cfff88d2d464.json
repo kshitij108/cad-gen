@@ -1,0 +1,11 @@
+{
+  "job_id": "64ea0589-f6d7-465c-bbca-cfff88d2d464",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\nimport cadquery as cq\n\n# Ring band\nring = (\n    Workplane(\"XY\")\n    .circle(10)  # Outer radius\n    .circle(8)   # Inner radius\n    .extrude(3)  # Band height\n)\n\n# Prong base/setting\nsetting = (\n    Workplane(\"XY\")\n    .workplane(offset=3)\n    .circle(4)\n    .extrude(2)\n)\n\n# Create prongs\nprong_positions = [(3, 0, 3), (-3, 0, 3), (0, 3, 3), (0, -3, 3)]\nprongs = Workplane(\"XY\")\nfor x, y, z in prong_positions:\n    prongs = prongs.union(\n        Workplane(\"XY\")\n      ...",
+  "file_path": "cad_models/64ea0589-f6d7-465c-bbca-cfff88d2d464/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:52:56.775869",
+  "updated_at": "2026-06-26T20:53:08.510282"
+}

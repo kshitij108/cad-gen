@@ -1,0 +1,11 @@
+{
+  "job_id": "5e3055e8-c234-4c48-9f58-d30299fd22c7",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "{\n  \"title\": \"L-Shaped Bracket with Fillet\",\n  \"description\": \"An L-shaped bracket consisting of two perpendicular arms joined at a 90-degree angle. The horizontal arm extends 40mm from the corner with a uniform thickness of 10mm. The vertical arm rises 30mm from the corner with the same 10mm thickness. An 8mm radius fillet is applied at the internal corner where the two arms meet, providing smooth stress distribution and improved structural integrity.\",\n  \"dimensions\": {\n    \"width\": 40,\n    \"height\": 30,\n    \"depth\": 10\n  },\n  \"features\": [\n    \"Horizontal arm: 40mm x 10mm cross-section\",\n    \"Vertical arm: 30mm x 10mm cross-section\",\n    \"8mm radius fillet at internal corner\",\n    \"90-degree angle between arms\",\n    \"Uniform 10mm thickness throughout\"\n  ],\n  \"material\": \"General Purpose Steel\",\n  \"file_format\": \"STEP\",\n  \"complexity\": \"simple\"\n}",
+  "file_path": "cad_models/5e3055e8-c234-4c48-9f58-d30299fd22c7/model.stl",
+  "file_format": "STEP",
+  "created_at": "2026-06-26T18:42:09.699658",
+  "updated_at": "2026-06-26T18:42:16.983162"
+}

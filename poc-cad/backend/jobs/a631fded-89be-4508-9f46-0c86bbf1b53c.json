@@ -1,0 +1,11 @@
+{
+  "job_id": "a631fded-89be-4508-9f46-0c86bbf1b53c",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "// Diamond Engagement Ring with 18K Gold Band\n$fn = 100; // High quality rendering\n\n// Ring parameters\nring_diameter = 18; // Size 7 US ring (18mm inner diameter)\nband_width = 2.5; // Band width in mm\nband_thickness = 1.8; // Band thickness in mm\nprong_count = 6; // Number of prongs holding the diamond\n\n// Diamond parameters\ndiamond_diameter = 6.5; // 1 carat equivalent diameter\ndiamond_height = 4; // Diamond pavilion + crown height\ndiamond_table = 0.53; // Table ratio (flat top)\n\n// Create the ...",
+  "file_path": "cad_models/a631fded-89be-4508-9f46-0c86bbf1b53c/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T19:32:34.157841",
+  "updated_at": "2026-06-26T19:33:07.525356"
+}

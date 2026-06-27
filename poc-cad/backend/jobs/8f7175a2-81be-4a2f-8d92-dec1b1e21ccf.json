@@ -1,0 +1,11 @@
+{
+  "job_id": "8f7175a2-81be-4a2f-8d92-dec1b1e21ccf",
+  "job_type": "image",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "// Flanged bushing or spacer component\n// Cylindrical body with top and bottom flanges\n\n$fn = 100; // High resolution for smooth curves\n\n// Main dimensions\nbody_diameter = 20;\nbody_height = 25;\ntop_flange_diameter = 32;\ntop_flange_height = 3;\nbottom_flange_diameter = 32;\nbottom_flange_height = 3;\nbore_diameter = 10;\n\n// Center the model\ntranslate([0, 0, -body_height/2 - bottom_flange_height/2])\ndifference() {\n    union() {\n        // Bottom flange\n        cylinder(d = bottom_flange_diameter, h =...",
+  "file_path": "cad_models/8f7175a2-81be-4a2f-8d92-dec1b1e21ccf/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T19:54:53.321292",
+  "updated_at": "2026-06-26T19:55:06.181269"
+}

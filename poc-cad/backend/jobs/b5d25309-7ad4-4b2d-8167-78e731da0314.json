@@ -1,0 +1,11 @@
+{
+  "job_id": "b5d25309-7ad4-4b2d-8167-78e731da0314",
+  "job_type": "image",
+  "status": "failed",
+  "progress": 80,
+  "cad_specification": "// Cylindrical object with top cutout and side features\n// Appears to be a mechanical part or holder\n\n$fn = 100; // High quality rendering\n\n// Main dimensions\nouter_diameter = 30;\ninner_diameter = 20;\nmain_height = 25;\ntop_cutout_depth = 8;\ntop_cutout_width = 12;\nside_slot_width = 3;\nside_slot_height = 15;\nside_slot_depth = 5;\n\ndifference() {\n    union() {\n        // Main cylindrical body\n        cylinder(d=outer_diameter, h=main_height);\n        \n        // Small raised rim at top\n        trans...",
+  "file_path": null,
+  "file_format": "STEP",
+  "created_at": "2026-06-26T19:53:00.197577",
+  "updated_at": "2026-06-26T19:53:13.788447"
+}

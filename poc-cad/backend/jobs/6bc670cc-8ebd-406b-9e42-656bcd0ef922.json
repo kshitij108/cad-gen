@@ -1,0 +1,11 @@
+{
+  "job_id": "6bc670cc-8ebd-406b-9e42-656bcd0ef922",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\nimport cadquery as cq\n\nresult = Workplane(\"XY\").box(10, 10, 10)...",
+  "file_path": "cad_models/6bc670cc-8ebd-406b-9e42-656bcd0ef922/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:33:43.386689",
+  "updated_at": "2026-06-26T20:33:46.029330"
+}

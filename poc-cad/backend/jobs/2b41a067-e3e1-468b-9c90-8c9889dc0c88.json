@@ -1,0 +1,11 @@
+{
+  "job_id": "2b41a067-e3e1-468b-9c90-8c9889dc0c88",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\nimport cadquery as cq\n\nresult = Workplane(\"XY\").cylinder(15, 5)...",
+  "file_path": "cad_models/2b41a067-e3e1-468b-9c90-8c9889dc0c88/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:33:47.114638",
+  "updated_at": "2026-06-26T20:33:49.314292"
+}

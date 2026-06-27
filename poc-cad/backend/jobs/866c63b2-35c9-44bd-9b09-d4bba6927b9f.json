@@ -1,0 +1,11 @@
+{
+  "job_id": "866c63b2-35c9-44bd-9b09-d4bba6927b9f",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\n\n# Ring band dimensions (size 7 US)\nring_inner_diameter = 17.3  # mm\nring_thickness = 2.0  # mm\nring_width = 2.5  # mm\n\n# Create ring band\nresult = (Workplane(\"XY\")\n    .circle((ring_inner_diameter + 2*ring_thickness)/2)\n    .circle(ring_inner_diameter/2)\n    .extrude(ring_width)\n)\n\n# Create prong setting base\nsetting_base = (Workplane(\"XY\")\n    .workplane(offset=ring_width)\n    .circle(4.0)\n    .extrude(2.0)\n    .edges(\"|Z\")\n    .fillet(0.3)\n)\n\n# Add four prongs f...",
+  "file_path": "cad_models/866c63b2-35c9-44bd-9b09-d4bba6927b9f/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:05:05.074467",
+  "updated_at": "2026-06-26T20:05:25.935701"
+}

@@ -1,0 +1,51 @@
+{
+  "summary": {
+    "passed": 6,
+    "failed": 0,
+    "total": 6
+  },
+  "results": [
+    {
+      "test": "Cube 100x100x100",
+      "status": "PASS",
+      "quality_score": 100,
+      "triangles": 12,
+      "file_size_mb": 0.000652313232421875
+    },
+    {
+      "test": "Sphere r=50",
+      "status": "PASS",
+      "quality_score": 100,
+      "triangles": 8,
+      "file_size_mb": 0.000461578369140625
+    },
+    {
+      "test": "Cylinder r=50 h=100",
+      "status": "PASS",
+      "quality_score": 100,
+      "triangles": 96,
+      "file_size_mb": 0.004657745361328125
+    },
+    {
+      "test": "Cone r=50 h=100",
+      "status": "PASS",
+      "quality_score": 100,
+      "triangles": 72,
+      "file_size_mb": 0.003513336181640625
+    },
+    {
+      "test": "Torus R=100 r=20",
+      "status": "PASS",
+      "quality_score": 100,
+      "triangles": 576,
+      "file_size_mb": 0.027545928955078125
+    },
+    {
+      "test": "Wedge 100x100x100 45\u00b0",
+      "status": "PASS",
+      "quality_score": 100,
+      "triangles": 12,
+      "file_size_mb": 0.000652313232421875
+    }
+  ]
+}

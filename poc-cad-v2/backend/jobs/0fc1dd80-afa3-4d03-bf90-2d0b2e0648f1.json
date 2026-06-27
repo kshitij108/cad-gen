@@ -1,0 +1,11 @@
+{
+  "job_id": "0fc1dd80-afa3-4d03-bf90-2d0b2e0648f1",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "// Diamond Engagement Ring\n$fn = 100; // High quality rendering\n\n// Ring parameters\nring_diameter = 18; // Inner diameter in mm (size 8)\nband_width = 2.5; // Width of band\nband_thickness = 2; // Thickness of band\n\n// Diamond parameters\ndiamond_diameter = 6; // Diameter of diamond\ndiamond_height = 4; // Height of diamond\nprong_count = 4; // Number of prongs\n\n// Main ring assembly\nunion() {\n    // Ring band\n    difference() {\n        cylinder(h=band_width, r=(ring_diameter/2 + band_thickness), cen...",
+  "file_path": "cad_models/0fc1dd80-afa3-4d03-bf90-2d0b2e0648f1/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T19:50:30.787840",
+  "updated_at": "2026-06-26T19:50:48.737777"
+}

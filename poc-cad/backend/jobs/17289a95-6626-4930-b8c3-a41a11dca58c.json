@@ -1,0 +1,11 @@
+{
+  "job_id": "17289a95-6626-4930-b8c3-a41a11dca58c",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\n\n# US Ring Size 7 = 17.3mm inner diameter\n# Band thickness = 2mm, so outer diameter = 21.3mm\n# Major radius for torus = (17.3 + 2) / 2 = 9.65mm\n# Minor radius for torus (band cross-section) = 1mm\n\n# Create the ring band as a torus\nring_band = (Workplane(\"XY\")\n    .moveTo(9.65, 0)  # Move to major radius from center\n    .circle(1)  # Create circle with 1mm radius (2mm diameter band)\n    .revolve(360, (0, 0, 0), (0, 0, 1))  # Revolve around Z-axis\n)\n\n# Create prong s...",
+  "file_path": "cad_models/17289a95-6626-4930-b8c3-a41a11dca58c/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:09:10.948843",
+  "updated_at": "2026-06-26T20:09:27.910585"
+}

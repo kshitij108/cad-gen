@@ -1,0 +1,27 @@
+FROM node:20-alpine AS builder
+
+WORKDIR /app
+
+# Copy frontend files
+COPY frontend/ .
+
+# Install dependencies
+RUN npm install
+
+# Build the application
+RUN npm run build
+
+# Production stage
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Install simple HTTP server
+RUN npm install -g http-server
+
+# Copy built application from builder
+COPY --from=builder /app/dist .
+
+EXPOSE 4200
+
+CMD ["http-server", "cad-platform", "-p", "4200"]

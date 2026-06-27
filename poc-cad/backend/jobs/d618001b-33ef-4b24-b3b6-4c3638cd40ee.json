@@ -1,0 +1,11 @@
+{
+  "job_id": "d618001b-33ef-4b24-b3b6-4c3638cd40ee",
+  "job_type": "image",
+  "status": "failed",
+  "progress": 80,
+  "cad_specification": "// Gold engagement ring with oval center stone and pav\u00e9 band\n// Dimensions estimated for realistic proportions\n\n$fn = 100; // High resolution\n\n// Ring parameters\nring_outer_radius = 9;\nband_thickness = 1.8;\nband_width = 1.5;\n\n// Center stone parameters\ncenter_stone_height = 5;\ncenter_stone_width = 3.5;\ncenter_stone_depth = 2.5;\n\n// Pav\u00e9 diamonds parameters\npave_count = 20;\npave_size = 0.8;\n\n// Main ring assembly\nunion() {\n    // Ring band\n    difference() {\n        rotate_extrude()\n            t...",
+  "file_path": null,
+  "file_format": "STEP",
+  "created_at": "2026-06-26T19:49:47.338492",
+  "updated_at": "2026-06-26T19:50:05.729286"
+}

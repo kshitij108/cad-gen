@@ -1,0 +1,11 @@
+{
+  "job_id": "3e7d476e-8a89-4554-9c72-a1999e5a2395",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "// Sphere with 25mm radius\n$fn = 100; // High quality rendering\n\n// Main sphere\nsphere(r = 25); // Sphere with radius of 25mm, centered at origin...",
+  "file_path": "cad_models/3e7d476e-8a89-4554-9c72-a1999e5a2395/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T19:32:26.017708",
+  "updated_at": "2026-06-26T19:32:34.129211"
+}

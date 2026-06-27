@@ -1,0 +1,11 @@
+{
+  "job_id": "79d46764-643a-4828-a636-1a8177c15141",
+  "job_type": "image",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\n\n# Diamond engagement ring with pav\u00e9 band\n# Ring band dimensions\nband_outer_radius = 10\nband_inner_radius = 8.5\nband_height = 2\nband_width = band_outer_radius - band_inner_radius\n\n# Create the main ring band\nresult = (\n    Workplane(\"XY\")\n    .circle(band_outer_radius)\n    .circle(band_inner_radius)\n    .extrude(band_height)\n)\n\n# Add rounded edges to band\nresult = result.edges(\"|Z\").fillet(0.3)\n\n# Create prongs for center stone (4 prongs)\nprong_height = 4\nprong_rad...",
+  "file_path": "cad_models/79d46764-643a-4828-a636-1a8177c15141/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:12:22.477169",
+  "updated_at": "2026-06-26T20:12:39.293302"
+}

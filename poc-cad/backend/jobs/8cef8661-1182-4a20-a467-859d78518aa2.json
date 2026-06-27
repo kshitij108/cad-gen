@@ -1,0 +1,11 @@
+{
+  "job_id": "8cef8661-1182-4a20-a467-859d78518aa2",
+  "job_type": "prompt",
+  "status": "failed",
+  "progress": 80,
+  "cad_specification": "// Simple 20mm cube\n$fn = 64; // High quality rendering\n\n// Main cube dimensions\ncube_size = 20; // 20mm cube edge length\n\n// Center the cube at origin\ntranslate([-cube_size/2, -cube_size/2, -cube_size/2])\n    cube([cube_size, cube_size, cube_size]);...",
+  "file_path": null,
+  "file_format": "STEP",
+  "created_at": "2026-06-26T19:27:49.326430",
+  "updated_at": "2026-06-26T19:28:09.345714"
+}

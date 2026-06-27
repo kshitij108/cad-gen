@@ -1,0 +1,11 @@
+{
+  "job_id": "924888c6-93de-49e7-961a-e0fc480da10b",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\n\n# Create ring band as a torus\n# Major radius: 8.5mm (distance from center to tube center)\n# Minor radius: 1.5mm (tube thickness radius)\nring_band = (Workplane(\"XY\")\n    .circle(8.5)  # Major radius circle\n    .workplane(offset=0)\n    .circle(1.5)  # Minor radius for tube cross-section\n    .sweep(Workplane(\"XY\").circle(8.5), makeSolid=True, isFrenet=True)\n)\n\n# Alternative torus creation method using revolve\nring_band = (Workplane(\"XZ\")\n    .center(8.5, 0)  # Move t...",
+  "file_path": "cad_models/924888c6-93de-49e7-961a-e0fc480da10b/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:11:42.538837",
+  "updated_at": "2026-06-26T20:11:54.562393"
+}

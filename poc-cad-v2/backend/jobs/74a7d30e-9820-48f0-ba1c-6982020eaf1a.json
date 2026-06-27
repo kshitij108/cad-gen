@@ -1,0 +1,11 @@
+{
+  "job_id": "74a7d30e-9820-48f0-ba1c-6982020eaf1a",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "{\n  \"title\": \"Cylindrical Shaft D20L50\",\n  \"description\": \"A solid cylindrical shaft with a uniform circular cross-section, 20mm in diameter and 50mm in length, with the longitudinal axis aligned along the Z-axis\",\n  \"dimensions\": {\n    \"width\": 20,\n    \"height\": 20,\n    \"depth\": 50\n  },\n  \"features\": [\"Solid cylinder primitive\", \"Uniform diameter throughout length\", \"Smooth surface finish\", \"Perpendicular end faces\"],\n  \"material\": \"Steel\",\n  \"file_format\": \"STEP\",\n  \"complexity\": \"simple\"\n}",
+  "file_path": "cad_models/74a7d30e-9820-48f0-ba1c-6982020eaf1a/model.step",
+  "file_format": "STEP",
+  "created_at": "2026-06-26T18:29:49.820235",
+  "updated_at": "2026-06-26T18:29:54.942732"
+}

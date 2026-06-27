@@ -1,0 +1,11 @@
+{
+  "job_id": "6ff56e62-e185-4a2d-ac98-f6896072b02f",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "{\n  \"title\": \"18K Gold Oval Diamond Engagement Ring\",\n  \"description\": \"Classic engagement ring featuring a 1.5 carat oval-cut diamond center stone in a four-prong setting mounted on an 18K gold band. The band has a comfort-fit interior with a width of 2.5mm tapering to 2mm near the setting. The oval diamond measures 9mm x 7mm with a cathedral-style setting that elevates the stone 7mm above the band. Prongs are positioned at 45-degree angles from the oval's axes for optimal security and light exposure.\",\n  \"dimensions\": {\n    \"width\": 20,\n    \"height\": 10,\n    \"depth\": 20\n  },\n  \"features\": [\n    \"Oval-cut diamond center stone (9mm x 7mm x 5.4mm)\",\n    \"Four-prong cathedral setting with 0.8mm prong diameter\",\n    \"18K gold band with 2.5mm width\",\n    \"Comfort-fit interior band profile\",\n    \"Tapered band design (2.5mm to 2mm)\",\n    \"Ring size 6.5 (16.9mm inner diameter)\",\n    \"Polished finish on all surfaces\",\n    \"Gallery underneath setting for light penetration\"\n  ],\n  \"material\": \"18K Gold (75% gold, 25% alloy)\",\n  \"file_format\": \"STEP\",\n  \"complexity\": \"medium\"\n}",
+  "file_path": "cad_models/6ff56e62-e185-4a2d-ac98-f6896072b02f/model.stl",
+  "file_format": "STEP",
+  "created_at": "2026-06-26T19:07:01.802052",
+  "updated_at": "2026-06-26T19:07:14.341131"
+}

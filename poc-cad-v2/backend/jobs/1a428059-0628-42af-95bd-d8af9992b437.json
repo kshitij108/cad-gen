@@ -1,0 +1,11 @@
+{
+  "job_id": "1a428059-0628-42af-95bd-d8af9992b437",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "{\n  \"title\": \"Cylindrical Piston Rod\",\n  \"description\": \"A solid cylindrical piston rod with uniform diameter throughout its length, suitable for reciprocating motion applications in hydraulic or pneumatic systems\",\n  \"dimensions\": {\n    \"width\": 20,\n    \"height\": 20,\n    \"depth\": 80\n  },\n  \"features\": [\"Solid cylinder body\", \"Uniform 20mm diameter\", \"Smooth surface finish\", \"Perpendicular end faces\"],\n  \"material\": \"Steel AISI 1045\",\n  \"file_format\": \"STEP\",\n  \"complexity\": \"simple\"\n}",
+  "file_path": "cad_models/1a428059-0628-42af-95bd-d8af9992b437/model.stl",
+  "file_format": "STEP",
+  "created_at": "2026-06-26T18:55:27.262107",
+  "updated_at": "2026-06-26T18:55:35.143354"
+}

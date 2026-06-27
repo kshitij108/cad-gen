@@ -1,0 +1,11 @@
+{
+  "job_id": "4244def9-a086-46e0-a455-a968a5c3c651",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "// 50mm cube\n$fn = 64; // High quality rendering\n\n// Main cube dimensions\ncube_size = 50; // 50mm on each side\n\n// Center the cube at origin\ntranslate([-cube_size/2, -cube_size/2, -cube_size/2])\n    cube([cube_size, cube_size, cube_size]);...",
+  "file_path": "cad_models/4244def9-a086-46e0-a455-a968a5c3c651/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T19:54:49.174981",
+  "updated_at": "2026-06-26T19:54:53.285231"
+}

@@ -1,0 +1,11 @@
+{
+  "job_id": "57e54419-89bd-4ff0-bac5-e98b83efb047",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\n\n# Create elegant solitaire engagement ring\n# Ring size approximately 17mm diameter (US size 7)\n\n# Create the ring band as a torus (white gold)\n# Major radius: 8.5mm (ring finger radius)\n# Minor radius: 1.5mm (band thickness)\nring_band = (Workplane(\"XY\")\n    .moveTo(8.5, 0)\n    .circle(1.5)\n    .revolve(360, (0, 0, 0), (0, 0, 1))\n)\n\n# Create prong setting base\n# Small cylinder to hold the diamond\nprong_base = (Workplane(\"XY\")\n    .moveTo(0, 8.5)\n    .circle(2.5)\n  ...",
+  "file_path": "cad_models/57e54419-89bd-4ff0-bac5-e98b83efb047/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:23:09.629518",
+  "updated_at": "2026-06-26T20:23:26.130023"
+}

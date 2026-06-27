@@ -1,0 +1,11 @@
+{
+  "job_id": "0c6668ce-fd4d-4775-b8ec-7a7aad122284",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\nimport cadquery as cq\n\nresult = Workplane(\"XY\").sphere(8)...",
+  "file_path": "cad_models/0c6668ce-fd4d-4775-b8ec-7a7aad122284/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:33:50.394681",
+  "updated_at": "2026-06-26T20:33:52.670454"
+}

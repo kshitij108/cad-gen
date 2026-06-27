@@ -1,0 +1,11 @@
+{
+  "job_id": "8a6c9d85-e796-4b87-819e-4971c65a4234",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "// 35mm cube centered at origin\n$fn = 64; // High quality rendering\n\n// Main cube parameters\ncube_size = 35; // Size of the cube in mm\n\n// Create centered cube\ntranslate([-cube_size/2, -cube_size/2, -cube_size/2])\n    cube([cube_size, cube_size, cube_size]);...",
+  "file_path": "cad_models/8a6c9d85-e796-4b87-819e-4971c65a4234/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T19:45:48.936075",
+  "updated_at": "2026-06-26T19:45:52.931480"
+}

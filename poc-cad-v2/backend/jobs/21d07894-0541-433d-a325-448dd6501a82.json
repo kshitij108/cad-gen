@@ -1,0 +1,11 @@
+{
+  "job_id": "21d07894-0541-433d-a325-448dd6501a82",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\n\n# Create a 40mm diameter sphere (radius = 20mm)\nresult = (Workplane(\"XY\")\n    .sphere(20)  # sphere takes radius as parameter, so 20mm radius = 40mm diameter\n)\n\nresult = result.val()...",
+  "file_path": "cad_models/21d07894-0541-433d-a325-448dd6501a82/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:03:15.595749",
+  "updated_at": "2026-06-26T20:03:19.693872"
+}

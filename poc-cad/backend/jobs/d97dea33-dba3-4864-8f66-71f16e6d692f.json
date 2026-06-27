@@ -1,0 +1,11 @@
+{
+  "job_id": "d97dea33-dba3-4864-8f66-71f16e6d692f",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\n\n# Diamond engagement ring with cylindrical band and spherical diamond\n# Key dimensions: band radius 10mm, band height 2mm, diamond radius 3mm\n\nband = (Workplane(\"XY\")\n    .cylinder(10, 2)\n)\n\ndiamond = (Workplane(\"XY\")\n    .sphere(3)\n    .translate(0, 0, 2.5)\n)\n\nprong1 = (Workplane(\"XY\")\n    .cylinder(0.5, 4)\n    .translate(2, 0, 2)\n)\n\nprong2 = (Workplane(\"XY\")\n    .cylinder(0.5, 4)\n    .translate(-2, 0, 2)\n)\n\nprong3 = (Workplane(\"XY\")\n    .cylinder(0.5, 4)\n    .tr...",
+  "file_path": "cad_models/d97dea33-dba3-4864-8f66-71f16e6d692f/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:30:59.109764",
+  "updated_at": "2026-06-26T20:31:07.071400"
+}

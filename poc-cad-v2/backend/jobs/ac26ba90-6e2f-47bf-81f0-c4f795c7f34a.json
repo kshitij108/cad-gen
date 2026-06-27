@@ -1,0 +1,11 @@
+{
+  "job_id": "ac26ba90-6e2f-47bf-81f0-c4f795c7f34a",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "{\n  \"title\": \"Simple Cube 10mm\",\n  \"description\": \"A basic cubic solid geometry with equal dimensions of 10mm on all sides, featuring 6 flat faces, 12 edges, and 8 vertices. The cube has its origin at the center with uniform wall thickness throughout.\",\n  \"dimensions\": {\n    \"width\": 10,\n    \"height\": 10,\n    \"depth\": 10\n  },\n  \"features\": [\"6 flat faces\", \"12 straight edges\", \"8 vertices\", \"90-degree angles\", \"uniform solid geometry\"],\n  \"material\": \"generic solid\",\n  \"file_format\": \"STEP\",\n  \"complexity\": \"simple\"\n}",
+  "file_path": "cad_models/ac26ba90-6e2f-47bf-81f0-c4f795c7f34a/model.step",
+  "file_format": "STEP",
+  "created_at": "2026-06-26T18:29:15.183370",
+  "updated_at": "2026-06-26T18:29:21.488492"
+}

@@ -1,0 +1,11 @@
+{
+  "job_id": "71e2b043-1fcd-4dd3-8b6b-9f933cdf9e6a",
+  "job_type": "image",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\n\n# Create a decorative cross/plus sign shape with rounded corners and edges\n# Base dimensions approximately 80mm x 80mm x 15mm thick\n\n# Create the main cross shape\nresult = (Workplane(\"XY\")\n    # Create horizontal bar of the cross\n    .box(80, 25, 15)\n    # Add vertical bar of the cross\n    .union(Workplane(\"XY\").box(25, 80, 15))\n    # Fillet all vertical edges for rounded corners\n    .edges(\"|Z\")\n    .fillet(8)\n    # Fillet top and bottom edges for smooth profile\n...",
+  "file_path": "cad_models/71e2b043-1fcd-4dd3-8b6b-9f933cdf9e6a/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:03:19.757546",
+  "updated_at": "2026-06-26T20:03:32.355893"
+}

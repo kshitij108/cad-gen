@@ -1,0 +1,11 @@
+{
+  "job_id": "ed8adea9-6ec8-4908-8862-179d2f4a2c12",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\n\n# Create a torus-shaped ring for jewelry\n# Outer diameter: 20mm (typical ring size)\n# Inner diameter: 16mm (finger hole)\n# Cross-section diameter: 2mm (band thickness)\n\n# Calculate torus parameters\nmajor_radius = 9  # Distance from center to middle of band (18mm outer diameter)\nminor_radius = 1  # Half thickness of the band (2mm thick)\n\n# Create the torus by revolving a circle around the Z-axis\nresult = (Workplane(\"XY\")\n    .circle(major_radius)  # Create path cir...",
+  "file_path": "cad_models/ed8adea9-6ec8-4908-8862-179d2f4a2c12/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:27:00.518052",
+  "updated_at": "2026-06-26T20:27:08.460869"
+}

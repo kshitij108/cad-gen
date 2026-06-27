@@ -1,0 +1,11 @@
+{
+  "job_id": "2c045abc-c2d0-4750-bc12-5aba261524d2",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "{\n  \"title\": \"Conical Frustum 40-20-35\",\n  \"description\": \"A truncated cone (conical frustum) with a circular base diameter of 40mm tapering to a top circular diameter of 20mm, with a vertical height of 35mm. The solid features smooth circular cross-sections throughout with a linear taper from base to top.\",\n  \"dimensions\": {\n    \"width\": 40,\n    \"height\": 35,\n    \"depth\": 40\n  },\n  \"features\": [\"Circular base with 40mm diameter\", \"Circular top with 20mm diameter\", \"Linear tapered walls\", \"Solid body construction\", \"Centered vertical axis\"],\n  \"material\": \"Generic solid\",\n  \"file_format\": \"STEP\",\n  \"complexity\": \"simple\"\n}",
+  "file_path": "cad_models/2c045abc-c2d0-4750-bc12-5aba261524d2/model.stl",
+  "file_format": "STEP",
+  "created_at": "2026-06-26T18:54:09.798194",
+  "updated_at": "2026-06-26T18:54:17.027824"
+}

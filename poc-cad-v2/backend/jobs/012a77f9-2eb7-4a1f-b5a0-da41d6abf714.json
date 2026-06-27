@@ -1,0 +1,11 @@
+{
+  "job_id": "012a77f9-2eb7-4a1f-b5a0-da41d6abf714",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "// Luxury Diamond Engagement Ring with Oval Center Stone\n$fn = 100; // High quality rendering\n\n// Ring parameters\nring_size = 16.9; // US size 6.5 internal diameter in mm\nring_thickness = 2.5; // Band thickness at top in mm\nring_thickness_base = 1.8; // Band thickness at base in mm\nband_height = 2.2; // Band height in mm\n\n// Center stone parameters\ncenter_stone_length = 10; // Oval length in mm\ncenter_stone_width = 8; // Oval width in mm\ncenter_stone_height = 6; // Estimated height for 1.5 carat...",
+  "file_path": "cad_models/012a77f9-2eb7-4a1f-b5a0-da41d6abf714/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T19:43:20.326272",
+  "updated_at": "2026-06-26T19:43:55.327634"
+}

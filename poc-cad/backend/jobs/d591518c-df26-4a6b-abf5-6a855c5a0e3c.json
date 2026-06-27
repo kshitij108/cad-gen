@@ -1,0 +1,11 @@
+{
+  "job_id": "d591518c-df26-4a6b-abf5-6a855c5a0e3c",
+  "job_type": "image",
+  "status": "failed",
+  "progress": 50,
+  "cad_specification": null,
+  "file_path": null,
+  "file_format": "STEP",
+  "created_at": "2026-06-26T19:41:42.666107",
+  "updated_at": "2026-06-26T19:41:43.110741"
+}

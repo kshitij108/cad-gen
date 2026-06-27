@@ -1,0 +1,11 @@
+{
+  "job_id": "8a727c3c-4e98-49c6-b4b6-3c95a1166a5b",
+  "job_type": "image",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "{\n  \"title\": \"Oval Solitaire Diamond Engagement Ring with Pave Band\",\n  \"description\": \"Classic engagement ring featuring an oval-cut center stone in a four-prong setting mounted on a delicate pave diamond band. The ring has a yellow gold construction with approximately 0.5-0.75 carat oval diamond center stone and micro-pave diamonds along the band for added brilliance.\",\n  \"dimensions\": {\n    \"width\": 7.5,\n    \"height\": 6.0,\n    \"depth\": 2.0\n  },\n  \"features\": [\n    \"Four-prong setting for oval center stone\",\n    \"Micro-pave diamonds along the band\",\n    \"Smooth interior comfort fit\",\n    \"Tapered band design\",\n    \"Cathedral-style setting elevation\"\n  ],\n  \"material\": \"14K or 18K Yellow Gold\",\n  \"file_format\": \"STEP\",\n  \"complexity\": \"medium\"\n}",
+  "file_path": "cad_models/8a727c3c-4e98-49c6-b4b6-3c95a1166a5b/model.step",
+  "file_format": "STEP",
+  "created_at": "2026-06-26T18:38:31.075885",
+  "updated_at": "2026-06-26T18:38:39.562957"
+}

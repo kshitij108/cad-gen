@@ -1,0 +1,11 @@
+{
+  "job_id": "11de0eb0-c300-4a9b-8c95-6c1013d3b7ac",
+  "job_type": "image",
+  "status": "failed",
+  "progress": 80,
+  "cad_specification": "// Oval diamond solitaire engagement ring with pav\u00e9 band\n// Dimensions estimated for realistic proportions\n\n$fn = 100;\n\n// Ring parameters\nring_inner_radius = 8.5;\nband_width = 1.8;\nband_height = 1.8;\n\n// Center stone parameters\nstone_height = 5;\nstone_width = 3.5;\nstone_depth = 3;\n\n// Pav\u00e9 diamond parameters\npave_size = 0.8;\npave_count = 20;\n\n// Main ring band\ndifference() {\n    rotate_extrude()\n        translate([ring_inner_radius + band_width/2, 0, 0])\n            circle(d=band_width);\n    \n ...",
+  "file_path": null,
+  "file_format": "STEP",
+  "created_at": "2026-06-26T19:46:24.345335",
+  "updated_at": "2026-06-26T19:46:47.170897"
+}

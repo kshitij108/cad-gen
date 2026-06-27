@@ -1,0 +1,11 @@
+{
+  "job_id": "1087256a-4f4b-4e0c-a440-ccd2debb7143",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "// Sphere with 20mm radius\n$fn = 64; // High quality rendering\n\n// Main sphere centered at origin\nsphere(r = 20); // 20mm radius sphere...",
+  "file_path": "cad_models/1087256a-4f4b-4e0c-a440-ccd2debb7143/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T19:30:54.040903",
+  "updated_at": "2026-06-26T19:31:02.106927"
+}

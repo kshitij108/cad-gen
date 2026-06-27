@@ -1,0 +1,11 @@
+{
+  "job_id": "e381772e-3fc3-40a0-8531-89e32f314d98",
+  "job_type": "image",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "// Geometric star/flower shape with hexagonal center\n// Approximately 60mm diameter with 6 pointed petals\n\n$fn = 64;\n\n// Main dimensions\nouter_diameter = 60;\ncenter_hex_diameter = 20;\nshape_thickness = 3;\npetal_length = 20;\npetal_width = 12;\n\n// Create the main star shape\nlinear_extrude(height = shape_thickness) {\n    union() {\n        // Central hexagon\n        circle(d = center_hex_diameter, $fn = 6);\n        \n        // Six pointed petals radiating outward\n        for(i = [0:5]) {\n           ...",
+  "file_path": "cad_models/e381772e-3fc3-40a0-8531-89e32f314d98/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T19:48:11.397901",
+  "updated_at": "2026-06-26T19:48:25.747665"
+}

@@ -1,0 +1,11 @@
+{
+  "job_id": "6674486b-adbb-48b4-b2db-4762bd80a3eb",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "{\n  \"title\": \"Oval Diamond Solitaire Engagement Ring\",\n  \"description\": \"Classic solitaire engagement ring featuring an 18K gold band with four-prong setting holding an oval-cut diamond center stone. The band tapers from 2.5mm at the shoulders to 2.0mm at the base with comfort fit interior. The oval diamond measures approximately 8x6mm (1.5 carat equivalent) set in a raised cathedral mount with decorative gallery underneath for light optimization.\",\n  \"dimensions\": {\n    \"width\": 20.0,\n    \"height\": 8.5,\n    \"depth\": 20.0\n  },\n  \"features\": [\n    \"Oval-cut diamond center stone with 58 facets\",\n    \"Four-prong claw setting with rounded tips\",\n    \"Tapered band with comfort fit interior profile\",\n    \"Cathedral shoulder design with open gallery\",\n    \"Sizing markers for ring sizes 5-9\",\n    \"Polished finish on all gold surfaces\",\n    \"Reinforced prong base for stone security\"\n  ],\n  \"material\": \"18K Gold with Diamond\",\n  \"file_format\": \"STEP\",\n  \"complexity\": \"medium\"\n}",
+  "file_path": "cad_models/6674486b-adbb-48b4-b2db-4762bd80a3eb/model.stl",
+  "file_format": "STEP",
+  "created_at": "2026-06-26T19:06:06.066826",
+  "updated_at": "2026-06-26T19:06:17.182385"
+}

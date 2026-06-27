@@ -1,0 +1,11 @@
+{
+  "job_id": "851489ad-73ef-488a-a780-b4a9e57f5659",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "// 28mm diameter sphere\n$fn = 64; // High quality rendering\n\n// Main sphere parameters\nsphere_diameter = 28; // Diameter in mm\nsphere_radius = sphere_diameter / 2; // Radius calculation\n\n// Create centered sphere\nsphere(r = sphere_radius);...",
+  "file_path": "cad_models/851489ad-73ef-488a-a780-b4a9e57f5659/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T19:47:54.050936",
+  "updated_at": "2026-06-26T19:47:58.140104"
+}

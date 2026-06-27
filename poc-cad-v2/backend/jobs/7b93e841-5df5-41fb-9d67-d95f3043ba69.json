@@ -1,0 +1,11 @@
+{
+  "job_id": "7b93e841-5df5-41fb-9d67-d95f3043ba69",
+  "job_type": "image",
+  "status": "failed",
+  "progress": 80,
+  "cad_specification": "// Modern geometric ring with rectangular profile and cutout\n// Ring outer diameter approximately 20mm, height 8mm\n\n$fn = 100;\n\n// Ring parameters\nouter_diameter = 20;\ninner_diameter = 16;\nring_height = 8;\nwall_thickness = (outer_diameter - inner_diameter) / 2;\n\n// Cutout parameters\ncutout_width = 12;\ncutout_depth = 3;\ncutout_height = ring_height - 2;\n\ndifference() {\n    // Main ring body - cylindrical with flat faces\n    cylinder(h = ring_height, d = outer_diameter, center = true);\n    \n    // ...",
+  "file_path": null,
+  "file_format": "STEP",
+  "created_at": "2026-06-26T19:52:03.556585",
+  "updated_at": "2026-06-26T19:52:18.838062"
+}

@@ -1,0 +1,11 @@
+{
+  "job_id": "2a0612b6-bc1c-42ab-a22f-999d053430b3",
+  "job_type": "image",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "// Beveled rectangular block with rounded edges\n// Dimensions approximately 60x40x15mm based on proportions\n\n$fn = 32;\n\n// Main dimensions\nlength = 60;\nwidth = 40;\nheight = 15;\ncorner_radius = 3;\ntop_bevel = 2;\n\n// Create the main body with rounded corners and beveled top\ndifference() {\n    // Base shape with rounded corners\n    hull() {\n        // Bottom four corners\n        translate([corner_radius, corner_radius, 0])\n            cylinder(h=height-top_bevel, r=corner_radius);\n        translate...",
+  "file_path": "cad_models/2a0612b6-bc1c-42ab-a22f-999d053430b3/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T19:53:53.947387",
+  "updated_at": "2026-06-26T19:54:06.180582"
+}

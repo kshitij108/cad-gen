@@ -1,0 +1,11 @@
+{
+  "job_id": "8b2be4c6-965a-491f-9c89-2c12cef4ff80",
+  "job_type": "image",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\nimport cadquery as cq\n\n# Create the ring band\nring = (\n    Workplane(\"XY\")\n    .circle(9.5)  # Outer radius\n    .circle(8.5)  # Inner radius\n    .extrude(1.5)  # Ring height\n)\n\n# Create the prong base for center stone\nprong_base = (\n    Workplane(\"XY\")\n    .workplane(offset=1.5)\n    .circle(3)\n    .extrude(0.5)\n)\n\n# Create prongs for center stone\nprongs = (\n    Workplane(\"XY\")\n    .workplane(offset=1.5)\n    .polarArray(2, 90, 4, fill=True)\n    .circle(0.4)\n    .ext...",
+  "file_path": "cad_models/8b2be4c6-965a-491f-9c89-2c12cef4ff80/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:39:05.101480",
+  "updated_at": "2026-06-26T20:39:19.523988"
+}

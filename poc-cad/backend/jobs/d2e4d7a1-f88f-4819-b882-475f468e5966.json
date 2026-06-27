@@ -1,0 +1,11 @@
+{
+  "job_id": "d2e4d7a1-f88f-4819-b882-475f468e5966",
+  "job_type": "image",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\n\n# Mechanical gear or sprocket with central hub and teeth\n# Base parameters\nouter_radius = 40\ninner_hub_radius = 8\nhub_height = 15\nbase_thickness = 5\ntooth_count = 20\ntooth_height = 8\ntooth_width = 6\n\n# Create the main gear body\nresult = (Workplane(\"XY\")\n    .circle(outer_radius - tooth_height)\n    .extrude(base_thickness)\n)\n\n# Add the teeth around the perimeter\nangle_step = 360 / tooth_count\nfor i in range(tooth_count):\n    angle = i * angle_step\n    tooth = (Work...",
+  "file_path": "cad_models/d2e4d7a1-f88f-4819-b882-475f468e5966/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:02:40.306273",
+  "updated_at": "2026-06-26T20:02:52.312053"
+}

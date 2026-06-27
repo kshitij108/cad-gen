@@ -1,0 +1,11 @@
+{
+  "job_id": "00024d40-0bc1-4eb1-b2d1-c05d2c136aa2",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "{\n  \"title\": \"Oval Diamond Solitaire Engagement Ring - 18K Gold\",\n  \"description\": \"Classic solitaire engagement ring featuring a 1.5 carat oval-cut diamond center stone (10mm x 7mm) set in a four-prong setting on an 18K gold band. The band features a comfort-fit interior with a width of 2.5mm tapering to 2mm at the base of the setting. The prongs are designed with claw-style tips for secure stone retention while maximizing light exposure. Total ring height from finger is approximately 8mm including the stone setting.\",\n  \"dimensions\": {\n    \"width\": 20.0,\n    \"height\": 8.0,\n    \"depth\": 20.0\n  },\n  \"features\": [\n    \"Oval-cut diamond center stone mounting (10mm x 7mm x 4.5mm)\",\n    \"Four-prong claw setting with 0.8mm prong thickness\",\n    \"Tapered band design (2.5mm to 2.0mm width)\",\n    \"Comfort-fit interior band profile\",\n    \"Gallery underneath setting for light optimization\",\n    \"Size 6.5 US standard (16.9mm internal diameter)\",\n    \"Polished finish on all surfaces\",\n    \"Reinforced prong-to-band junction\"\n  ],\n  \"material\": \"18K Gold (75% gold, 25% alloy)\",\n  \"file_format\": \"STEP\",\n  \"complexity\": \"medium\"\n}",
+  "file_path": "cad_models/00024d40-0bc1-4eb1-b2d1-c05d2c136aa2/model.stl",
+  "file_format": "STEP",
+  "created_at": "2026-06-26T19:12:19.508014",
+  "updated_at": "2026-06-26T19:12:32.275674"
+}

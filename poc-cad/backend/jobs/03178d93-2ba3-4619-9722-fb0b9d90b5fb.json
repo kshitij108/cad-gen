@@ -1,0 +1,11 @@
+{
+  "job_id": "03178d93-2ba3-4619-9722-fb0b9d90b5fb",
+  "job_type": "image",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "from cadquery import Workplane\nimport cadquery as cq\n\n# Create the ring band\nring = (\n    Workplane(\"XY\")\n    .circle(10)  # Outer radius\n    .circle(9)   # Inner radius\n    .extrude(2)  # Ring height\n)\n\n# Create the center stone (oval/cushion cut diamond)\ncenter_stone = (\n    Workplane(\"XY\")\n    .workplane(offset=2)\n    .ellipse(2.5, 2)\n    .workplane(offset=3)\n    .ellipse(2.3, 1.8)\n    .loft()\n    .faces(\">Z\")\n    .workplane()\n    .ellipse(2.3, 1.8)\n    .workplane(offset=-1.5)\n    .ellipse(0....",
+  "file_path": "cad_models/03178d93-2ba3-4619-9722-fb0b9d90b5fb/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T20:34:14.662357",
+  "updated_at": "2026-06-26T20:34:30.687665"
+}

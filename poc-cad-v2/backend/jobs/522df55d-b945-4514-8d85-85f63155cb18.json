@@ -1,0 +1,11 @@
+{
+  "job_id": "522df55d-b945-4514-8d85-85f63155cb18",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "{\n  \"title\": \"Classic Diamond Solitaire Engagement Ring - 18K Gold\",\n  \"description\": \"A traditional solitaire engagement ring featuring a 6.5mm round brilliant cut diamond (approximately 1 carat) secured with a 6-prong setting on an 18K gold band. The band has a comfort-fit interior with a width of 2.5mm tapering to 2mm at the base of the setting. The prong setting elevates the diamond 5mm above the band for maximum light exposure and brilliance.\",\n  \"dimensions\": {\n    \"width\": 20.5,\n    \"height\": 8.5,\n    \"depth\": 20.5\n  },\n  \"features\": [\n    \"6-prong cathedral setting for diamond mounting\",\n    \"Comfort-fit rounded interior band profile\",\n    \"Tapered band from 2.5mm to 2mm width\",\n    \"6.5mm diameter setting for 1ct diamond\",\n    \"Polished finish on all surfaces\",\n    \"Size 7 (17.3mm internal diameter)\",\n    \"2mm band thickness\",\n    \"Reinforced gallery under setting\"\n  ],\n  \"material\": \"18K Gold (75% gold, 25% alloy)\",\n  \"file_format\": \"STEP\",\n  \"complexity\": \"medium\"\n}",
+  "file_path": "cad_models/522df55d-b945-4514-8d85-85f63155cb18/model.stl",
+  "file_format": "STEP",
+  "created_at": "2026-06-26T19:01:40.856917",
+  "updated_at": "2026-06-26T19:01:52.395199"
+}

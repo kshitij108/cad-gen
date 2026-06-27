@@ -1,0 +1,11 @@
+{
+  "job_id": "829b14e7-08b2-4d45-a9d3-1fd432d7b937",
+  "job_type": "prompt",
+  "status": "completed",
+  "progress": 100,
+  "cad_specification": "// 40mm cube\n$fn = 64; // High quality rendering\n\n// Main cube parameters\ncube_size = 40; // 40mm edge length\n\n// Center the cube at origin\ntranslate([-cube_size/2, -cube_size/2, -cube_size/2])\n    cube([cube_size, cube_size, cube_size]);...",
+  "file_path": "cad_models/829b14e7-08b2-4d45-a9d3-1fd432d7b937/model.stl",
+  "file_format": "STL",
+  "created_at": "2026-06-26T19:32:07.620911",
+  "updated_at": "2026-06-26T19:32:17.059503"
+}
